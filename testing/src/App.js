@@ -1,13 +1,13 @@
 import CommentBox from "./CommentBox";
 import CommentList from "./CommentList";
 
-function App() {
+const App = () => {
   return (
     <div>
-      <CommentList />
       <CommentBox />
+      <CommentList />
     </div>
   );
-}
+};
 
 export default App;
